@@ -58,3 +58,16 @@
             Ví dụ có nhánh A và B, để hợp nhất nhánh B vào nhánh A. Dùng lệnh git checkout A để chuyển sang nhánh A, sau đó git merge B để hợp nhất B vào A
         git -D ten_nhanh
             Xóa nhánh
+        
+
+    GitHub là hệ thống quản lý dự án và phiên bản code
+        - Cung cấp kho lưu trữ mã nguồn Git cho các dự án phần mềm. GitHub có đầy đủ tính năng của Git
+        - Giúp đồng bộ source code của team lên 1 server.
+    
+    Đẩy code lên GitHub cho lần tiếp theo
+        - b1: git add .
+        - b2: git commit -m "Nội dung commit"
+        - b3: git push
+
+    Kéo code từ GitHub về máy
+        - b1: git pull origin ten-nhanh
