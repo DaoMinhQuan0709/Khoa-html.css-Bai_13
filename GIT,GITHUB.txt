@@ -34,4 +34,16 @@
             Xem sự thay đổi của 1 file sau khi chúng ta chỉnh sửa(File đó vẫn đang ở khu vực Working directory)
         gitk
             Mở dashboard xem trục quan hơn
-            
+        
+        git checkout -- ten_file
+            Bỏ đi nhx thay đổi của file, để file trở về như lúc ban đầu. Áp dụng chi file đang ở vùng Working directory
+        git reset HEAD ten_file hoặc git reset ten_file
+            Chuyển file đó từ vùng Staging area trở lại vùng Working directory.
+        
+        git reset --soft commit_id
+            - Dùng để chuyển trạng thái đã commit về trạng thái trc lúc chạy lệnh git commit.
+            - Tức là từ Repository về lại Staging area. Trong đó commit_id là mã nhánh mà ta muốn quay lại.
+        git reset --mixed commit_id 
+            - Dùng để chuyển trạng thái đã commit về trạng thái trc lúc chạy lệnh git add.
+            - Tức là từ Repository về lại Working directory. Trong đó commit_id là mã nhánh mà ta muốn quay lại.
+        
