@@ -1,0 +1,29 @@
+
+    Git là hệ thống quản lý phiên bản phân tán, cung cấp kho lưu trữ riêng chứa toàn bộ lịch sử thay đổi
+    - Working directory(Thư mục làm việc): Khu vực chứa dự án mà chúng ta làm việc.
+    - Staging area(Thư mục sắp xếp): Khu vực chứa thông tin thay đổi  của các file.
+    - Repository(Git directory - thư mục git): Kho lưu trữ để lưu dữ liệu, lịch sử các phiên bản
+
+    Các câu lệnh GIT phổ biến
+        git --version: xem phiên bản
+        git --help: xem ds các câu lệnh Git
+        git config: Để đặt username va email cua ban trong file config cua git
+            - xem thong tin cau hinh username: git config --global user.name
+            - xem thong tin cau hinh email: git config --global user.email
+            - dat username moi: git config --global user.name"Nguyen Van A"
+            - dat email moi: git config --global user.email"nguyevana@gmail.com"
+        git init
+            - Khoi tao 1 git respository(kho luu tru) trong 1 du an moi hoac du an da co(Dung trong thu muc goc cua du an).
+            - Khi khoi tao xong, trong thu muc goc(du an dang lam) se sinh ra 1 thu  muc ten la .git, thu muc nay se luu toan bo thong tin lich su cua du an ban dang lam.
+        git status
+            - Xem trang thai cua file da dc thay doi trong du an
+        git add ten_file
+            - Thông tin của các file sẽ đc lưu vào Staging area.
+            - Staging area có tác dụng sắp xếp lại nhưng file đã add vào.
+        git add .
+            - Thêm thay đổi cho tất cả các file
+        git commit -m "Nội dung..."
+            - Để đưa những file ở vùng Staging area chuyển sang Respository, mục đích là tạo ra 1 phiên bản mới và lưu vào lịch sử của Respository.
+            - Điều kiện các tập tin, thư mục đc thay đổi đã nằm trong Staging Area.
+        
+            
