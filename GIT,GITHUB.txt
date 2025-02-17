@@ -26,4 +26,12 @@
             - Để đưa những file ở vùng Staging area chuyển sang Respository, mục đích là tạo ra 1 phiên bản mới và lưu vào lịch sử của Respository.
             - Điều kiện các tập tin, thư mục đc thay đổi đã nằm trong Staging Area.
         
+        git log 
+            Xem thông tin lịch sử commit. Commit mới hiện ở trên, cũ ở dưới(nếu gặp chữ END thì nhấn phím q để thoát)
+        git show commit_id
+            Xem chi tiết 1 commit
+        git diff
+            Xem sự thay đổi của 1 file sau khi chúng ta chỉnh sửa(File đó vẫn đang ở khu vực Working directory)
+        gitk
+            Mở dashboard xem trục quan hơn
             
