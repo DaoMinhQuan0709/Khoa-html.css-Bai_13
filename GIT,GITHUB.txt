@@ -49,6 +49,12 @@
         git branch
             - Xem ds các nhánh. Các nhánh đại diện  cho các phiên bản cụ thể của 1 kho lưu trữ tách ra từ project của bạn
             - Nhánh master là nhánh chính, để sau này deploy lên server.
-        git checkout 
+        git checkout -b ten_nhanh
+            Tạo 1 nhánh mới và chuyển sang nhánh đó
         git checkout ten_nhanh
             Chuyển sang nhánh khác
+        git merge ten_nhanh
+            Để merge nhánh <ten_nhanh> vào trong nhánh hiện tại
+            Ví dụ có nhánh A và B, để hợp nhất nhánh B vào nhánh A. Dùng lệnh git checkout A để chuyển sang nhánh A, sau đó git merge B để hợp nhất B vào A
+        git -D ten_nhanh
+            Xóa nhánh
